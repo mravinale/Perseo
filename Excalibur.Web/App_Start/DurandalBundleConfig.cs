@@ -10,9 +10,11 @@ namespace Excalibur.Web {
       bundles.Add(
         new ScriptBundle("~/scripts/vendor")
           .Include("~/Scripts/jquery-1.9.1.min.js")
+		  .Include("~/Scripts/modernizr-2.6.2.js")
           .Include("~/Scripts/knockout-2.2.1.js")
           .Include("~/Scripts/sammy-0.7.4.min.js")
           .Include("~/Scripts/bootstrap.min.js")
+		  .Include("~/Scripts/jquery.cslider.js")
         );
 
       bundles.Add(
@@ -22,6 +24,7 @@ namespace Excalibur.Web {
           .Include("~/Content/bootstrap-responsive.min.css")
           .Include("~/Content/font-awesome.min.css")
           .Include("~/Content/app.css")
+		  .Include("~/Content/jquery.parallax.css")
         );
     }
 

@@ -13,7 +13,8 @@ define(function(require) {
     //>>excludeStart("build", true);
     system.debug(true);
     //>>excludeEnd("build");
-
+    
+    
     app.start().then(function () {
         //Replace 'viewmodels' in the moduleId with 'views' to locate the view.
         //Look for partial views in a 'views' folder in the root.

@@ -167,8 +167,8 @@
     <Content Include="App\views\flickr.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="App\views\welcome.html" />
-    <Content Include="App_Readme\modernizr.full\readme.txt" />
     <Content Include="Content\app.css" />
+    <Content Include="Content\bootstrap-editable.css" />
     <Content Include="Content\bootstrap-responsive.css" />
     <Content Include="Content\bootstrap-responsive.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -185,6 +185,7 @@
     <Content Include="Content\images\arrows.png" />
     <Content Include="Content\images\bg.png" />
     <Content Include="Content\images\bullets.png" />
+    <Content Include="Content\images\clear.png" />
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
     <Content Include="Content\images\icon.png" />
@@ -195,6 +196,7 @@
     <Content Include="Content\jquery.parallax.css" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap-editable.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -203,9 +205,13 @@
     <Content Include="Scripts\knockout-2.2.1.debug.js" />
     <Content Include="Scripts\knockout-2.2.1.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\modernizr-2.6.2.min.js" />
     <Content Include="Scripts\sammy-0.7.4.js" />
     <Content Include="Scripts\sammy-0.7.4.min.js" />
+    <Content Include="Content\bootstrap-wysihtml5-0.0.2.css" />
+    <Content Include="Scripts\wysihtml5\bootstrap-wysihtml5-0.0.2.min.js" />
+    <Content Include="Scripts\wysihtml5\wysihtml5-0.3.0.js" />
+    <Content Include="Content\wysiwyg-color.css" />
+    <Content Include="Scripts\wysihtml5\wysihtml5.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

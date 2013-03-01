@@ -1,8 +1,18 @@
 ﻿define(function (require) {
-    var system = require('durandal/system'),
-          app = require('durandal/app');
+    var system = require('durandal/system'), 
+    widget = require('durandal/widget');
+
+    widget.registerKind('parallax'); 
 
     var ctor = function (name, description) {
+        this.slides = ko.observableArray(["Title1", "Title2", "Title3", "Title4"]);
+    };
+    
+    ctor.prototype.viewAttached = function (view) {
+        //$('p').editable({
+        //    url: '/post',
+        //    title: 'Enter comments'
+        //});
     };
 
     ctor.prototype.activate = function () {

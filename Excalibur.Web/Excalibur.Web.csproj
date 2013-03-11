@@ -124,12 +124,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\DurandalBundleConfig.cs" />
-    <Compile Include="App_Start\DurandalConfig.cs" />
+    <Compile Include="App_Start\ExcaliburBundleConfig.cs" />
+    <Compile Include="App_Start\ExcaliburConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\DurandalController.cs" />
+    <Compile Include="Controllers\ExcaliburController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1480,10 +1480,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Durandal\Index.cshtml" />
+    <Content Include="Views\Excalibur\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Durandal\_splash.cshtml" />
+    <Content Include="Views\Excalibur\_splash.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="readme.md" />

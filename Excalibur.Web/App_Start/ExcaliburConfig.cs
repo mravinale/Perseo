@@ -2,11 +2,11 @@ using System;
 using System.Web.Optimization;
 
 [assembly: WebActivator.PostApplicationStartMethod(
-    typeof(Excalibur.Web.App_Start.DurandalConfig), "PreStart")]
+    typeof(Excalibur.Web.App_Start.ExcaliburConfig), "PreStart")]
 
 namespace Excalibur.Web.App_Start
 {
-    public static class DurandalConfig
+    public static class ExcaliburConfig
     {
         public static void PreStart()
         {

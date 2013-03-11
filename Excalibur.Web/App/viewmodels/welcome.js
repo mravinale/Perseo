@@ -9,10 +9,7 @@
     };
     
     ctor.prototype.viewAttached = function (view) {
-        //$('p').editable({
-        //    url: '/post',
-        //    title: 'Enter comments'
-        //});
+        system.log('view attached', this);
     };
 
     ctor.prototype.activate = function () {

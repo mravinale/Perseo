@@ -1,8 +1,8 @@
 using System.Web.Mvc;
 
-namespace Excalibur.Web.Controllers 
+namespace Perseo.Web.Controllers 
 {
-	public class ExcaliburController : Controller 
+	public class PerseoController : Controller 
 	{
 		public ActionResult Index() 
 		{

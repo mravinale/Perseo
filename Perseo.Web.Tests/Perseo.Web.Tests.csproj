@@ -9,8 +9,8 @@
     <ProjectGuid>{B43F19AA-6974-4A59-9CCF-1BBB6F27E913}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Excalibur.Web.Tests</RootNamespace>
-    <AssemblyName>Excalibur.Web.Tests</AssemblyName>
+    <RootNamespace>Perseo.Web.Tests</RootNamespace>
+    <AssemblyName>Perseo.Web.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -106,9 +106,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Excalibur.Web\Excalibur.Web.csproj">
+    <ProjectReference Include="..\Perseo.Web\Perseo.Web.csproj">
       <Project>{7127B95B-7E63-44F8-912A-CE6428807805}</Project>
-      <Name>Excalibur.Web</Name>
+      <Name>Perseo.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

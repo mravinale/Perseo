@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Excalibur.Web
+namespace Perseo.Web
 {
 	public class FilterConfig
 	{

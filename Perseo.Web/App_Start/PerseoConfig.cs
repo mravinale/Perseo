@@ -2,11 +2,11 @@ using System;
 using System.Web.Optimization;
 
 [assembly: WebActivator.PostApplicationStartMethod(
-    typeof(Excalibur.Web.App_Start.ExcaliburConfig), "PreStart")]
+    typeof(Perseo.Web.App_Start.PerseoConfig), "PreStart")]
 
-namespace Excalibur.Web.App_Start
+namespace Perseo.Web.App_Start
 {
-    public static class ExcaliburConfig
+    public static class PerseoConfig
     {
         public static void PreStart()
         {

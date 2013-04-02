@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace Excalibur.Web
+namespace Perseo.Web
 {
 	public static class WebApiConfig
 	{

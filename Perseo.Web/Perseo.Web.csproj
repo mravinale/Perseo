@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Excalibur.Web</RootNamespace>
-    <AssemblyName>Excalibur.Web</AssemblyName>
+    <RootNamespace>Perseo.Web</RootNamespace>
+    <AssemblyName>Perseo.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -124,12 +124,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\ExcaliburBundleConfig.cs" />
-    <Compile Include="App_Start\ExcaliburConfig.cs" />
+    <Compile Include="App_Start\PerseoBundleConfig.cs" />
+    <Compile Include="App_Start\PerseoConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\ExcaliburController.cs" />
+    <Compile Include="Controllers\PerseoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -219,10 +219,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Excalibur\Index.cshtml" />
+    <Content Include="Views\Perseo\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Excalibur\_splash.cshtml" />
+    <Content Include="Views\Perseo\_splash.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="readme.md" />

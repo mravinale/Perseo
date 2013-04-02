@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Excalibur.Web
+namespace Perseo.Web
 {
 	public class RouteConfig
 	{
@@ -12,7 +12,7 @@ namespace Excalibur.Web
 			routes.MapRoute(
 			  name: "Default",
 			  url: "{controller}/{action}/{id}",
-			  defaults: new { controller = "Excalibur", action = "Index", id = UrlParameter.Optional }
+			  defaults: new { controller = "Perseo", action = "Index", id = UrlParameter.Optional }
 			  );
 		}
 	}

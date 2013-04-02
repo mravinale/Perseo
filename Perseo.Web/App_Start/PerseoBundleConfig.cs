@@ -1,7 +1,7 @@
 using System;
 using System.Web.Optimization;
 
-namespace Excalibur.Web
+namespace Perseo.Web
 {
 	public class DurandalBundleConfig
 	{

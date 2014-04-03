@@ -1,7 +1,9 @@
 Perseo
 =========
 
-A SPA using javascript Durandal framework 
+Very basic landing page using Durandal framework and parallax widget
+
 ![](http://s2.postimg.org/fco4lwaah/perseo.png)
 
-[take a look](http://perseo.apphb.com/)
+
+* Try the app a live: [duarandal-landing-page](http://perseo.apphb.com/)
